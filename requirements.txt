@@ -1,0 +1,24 @@
+# Core scientific stack
+numpy
+pandas
+scipy
+
+# Visualization
+matplotlib
+seaborn
+
+# Machine Learning
+scikit-learn
+xgboost
+lightgbm
+joblib
+
+# Jupyter ecosystem
+jupyter
+notebook
+jupyterlab
+
+# Optional quality-of-life
+black      # code formatter
+isort      # import sorter
+pytest     # testing
