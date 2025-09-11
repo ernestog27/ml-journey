@@ -205,3 +205,13 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Data files (keep small sample CSVs only, not big datasets)
+data/*.csv
+data/*.tsv
+data/*.json
+data/*.parquet
+
+# Mac & Windows system junk
+.DS_Store
+Thumbs.db
