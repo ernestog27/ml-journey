@@ -1,42 +1,77 @@
-# ml-journey
+# 🚀 ML Journey  
 
-My journey to Machine Learning Engineer / Data Scientist – projects, notes, and tutorials (English + Spanish).
+Documenting my path from learning to becoming a **Machine Learning Engineer / Data Scientist**.  
+This repo contains projects, code, and results as I practice and build up my skills.  
 
-# ML Journey 🚀
+---
+
+## 📂 Repository Structure  
+
+- **/notebooks** → Jupyter notebooks by project  
+- **/docs** → results, plots, and notes  
+- **requirements.txt** → dependencies to recreate my environment  
+
+---
+
+## 📆 Progress Log  
+
+### ✅ Day 1 — California Housing Regression  
+- Built a regression model using **Linear Regression** and **Ridge Regression**  
+- Compared performance and documented results in Markdown + plots  
+- [Notebook](notebooks/01_california_regression.ipynb)  
+
+---
+
+### ✅ Day 2 — Titanic Logistic Regression  
+- Built a classification model on Titanic dataset using **Logistic Regression**  
+- Features: sex, age, fare, class, embarked  
+- Evaluated with **Accuracy, Precision, Recall, F1, ROC-AUC**  
+- Visualized results with a Confusion Matrix  
+
+Artifacts:  
+- [Notebook](notebooks/02_titanic_classification.ipynb)  
+- [Results](docs/titanic_results.md)  
+- ![Confusion Matrix](docs/titanic_confusion.png)  
+
+---
+
+### ✅ Day 3 — Logistic Regression with Cross-Validation + ROC Curve  
+- Expanded features: sex, age, fare, class, embarked, sibsp, parch, alone  
+- Used **Stratified 5-fold cross-validation** for robust performance estimates  
+- Evaluated multiple metrics (Accuracy, F1, ROC-AUC)  
+- Visualized the ROC Curve on a holdout test set  
+
+Artifacts:  
+- [Notebook](notebooks/03_titanic_logreg_cv.ipynb)  
+- [CV Results](docs/titanic_cv_results.md)  
+- ![ROC Curve](docs/titanic_roc_curve.png)  
+
+---
+
+## 🛠️ Tech Stack  
+
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)  
+![Pandas](https://img.shields.io/badge/Pandas-Data--Analysis-lightgrey?logo=pandas)  
+![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange?logo=scikit-learn)  
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-red?logo=jupyter)  
+
+---
+
+## ⚙️ How to Run  
+
+Clone the repo:  
+```bash
+git clone https://github.com/ernestog27/ml-journey.git
+cd ml-journey
 
 
 
-This repository documents my journey from \*\*0 → Machine Learning Engineer / Data Scientist \*\*.  
 
-I’ll share \*\*projects, videos, and articles in English + Spanish\*\*.
+## 👨🏾‍💻 Connect
 
+[LinkedIn](https://linkedin.com/in/eg-data)
 
+[YouTube](https://youtube.com/@ErnestoData)
 
-\## Structure
-
-\- `data/` → datasets (small/public only)
-
-\- `notebooks/` → Jupyter notebooks
-
-\- `src/` → Python scripts
-
-\- `tests/` → unit tests
-
-\- `docs/` → notes, write-ups
-
-
-
-\## First Project
-
-\- California Housing Regression (scikit-learn pipelines, evaluation with MAE/RMSE)
-
-
-
-\## Content
-
-\- \[LinkedIn](https://linkedin.com/in/eg-data)
-
-\- \[YouTube](https://youtube.com/@ErnestoData)
-
-\- \[GitHub Repos](https://github.com/ernestog27) 
+[GitHub Repos](https://github.com/ernestog27) 
 
