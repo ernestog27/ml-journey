@@ -15,14 +15,14 @@ This repo contains projects, code, and results as I practice and build up my ski
 
 ## 📆 Progress Log  
 
-### ✅ Day 1 — California Housing Regression  
+### ✅ Day 1 - California Housing Regression  
 - Built a regression model using **Linear Regression** and **Ridge Regression**  
 - Compared performance and documented results in Markdown + plots  
 - [Notebook](notebooks/01_california_regression.ipynb)  
 
 ---
 
-### ✅ Day 2 — Titanic Logistic Regression  
+### ✅ Day 2 - Titanic Logistic Regression  
 - Built a classification model on Titanic dataset using **Logistic Regression**  
 - Features: sex, age, fare, class, embarked  
 - Evaluated with **Accuracy, Precision, Recall, F1, ROC-AUC**  
@@ -35,11 +35,21 @@ Artifacts:
 
 ---
 
-### ✅ Day 3 — Logistic Regression with Cross-Validation + ROC Curve  
+### ✅ Day 3 - Logistic Regression with Cross-Validation + ROC Curve  
 - Expanded features: sex, age, fare, class, embarked, sibsp, parch, alone  
 - Used **Stratified 5-fold cross-validation** for robust performance estimates  
 - Evaluated multiple metrics (Accuracy, F1, ROC-AUC)  
 - Visualized the ROC Curve on a holdout test set  
+
+### ✅ Day 4 - Feature Engineering + Tree Baselines
+- Engineered features: `family_size`, `is_child`, `fare_per_person`
+- Compared **Logistic Regression**, **Decision Tree**, **Random Forest**
+- 5-fold CV (Accuracy, F1, ROC-AUC) + ROC overlay plot
+
+Artifacts:
+- [Notebook](notebooks/04_titanic_feature_engineering_trees.ipynb)  
+- [CV Results](docs/titanic_day4_cv_results.md)  
+- ![ROC Overlay](docs/titanic_day4_roc_overlay.png)
 
 Artifacts:  
 - [Notebook](notebooks/03_titanic_logreg_cv.ipynb)  
@@ -66,6 +76,7 @@ cd ml-journey
 
 
 
+---
 
 ## 👨🏾‍💻 Connect
 
