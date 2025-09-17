@@ -1,6 +1,6 @@
 # 🚀 ML Journey  
 
-Documenting my path from learning to becoming a **Machine Learning Engineer / Data Scientist**.  
+Documenting my path from learning to becoming a **Machine Learning Engineer**.  
 This repo contains projects, code, and results as I practice and build up my skills.  
 
 ---
@@ -39,7 +39,12 @@ Artifacts:
 - Expanded features: sex, age, fare, class, embarked, sibsp, parch, alone  
 - Used **Stratified 5-fold cross-validation** for robust performance estimates  
 - Evaluated multiple metrics (Accuracy, F1, ROC-AUC)  
-- Visualized the ROC Curve on a holdout test set  
+- Visualized the ROC Curve on a holdout test set
+  
+Artifacts:  
+- [Notebook](notebooks/03_titanic_logreg_cv.ipynb)  
+- [CV Results](docs/titanic_cv_results.md)  
+- ![ROC Curve](docs/titanic_roc_curve.png)  
 
 ### ✅ Day 4 - Feature Engineering + Tree Baselines
 - Engineered features: `family_size`, `is_child`, `fare_per_person`
@@ -51,10 +56,24 @@ Artifacts:
 - [CV Results](docs/titanic_day4_cv_results.md)  
 - ![ROC Overlay](docs/titanic_day4_roc_overlay.png)
 
-Artifacts:  
-- [Notebook](notebooks/03_titanic_logreg_cv.ipynb)  
-- [CV Results](docs/titanic_cv_results.md)  
-- ![ROC Curve](docs/titanic_roc_curve.png)  
+### ✅ Day 5 - Credit Card Fraud Detection (Imbalanced Data)
+
+- Worked with the Kaggle Credit Card Fraud Detection dataset (~285k transactions, only 0.17% fraud)
+
+- Built baseline Logistic Regression and Random Forest models
+
+- Highlighted why raw accuracy is misleading in imbalanced settings
+
+- Evaluated with ROC-AUC and Precision-Recall AUC
+
+- Applied class weights and SMOTE oversampling to improve recall
+
+- Performed threshold scanning to balance precision and recall trade-offs
+
+Artifacts:
+- [Notebook](notebooks/05_creditcard_imbalanced.ipynb)
+- [Results](docs/creditcard_results.md)
+- Plots saved under 'docs/'
 
 ---
 
