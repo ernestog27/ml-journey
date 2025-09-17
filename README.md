@@ -15,14 +15,14 @@ This repo contains projects, code, and results as I practice and build up my ski
 
 ## 📆 Progress Log  
 
-### ✅ Day 1 - California Housing Regression  
+### Day 1 - California Housing Regression  
 - Built a regression model using **Linear Regression** and **Ridge Regression**  
 - Compared performance and documented results in Markdown + plots  
 - [Notebook](notebooks/01_california_regression.ipynb)  
 
 ---
 
-### ✅ Day 2 - Titanic Logistic Regression  
+### Day 2 - Titanic Logistic Regression  
 - Built a classification model on Titanic dataset using **Logistic Regression**  
 - Features: sex, age, fare, class, embarked  
 - Evaluated with **Accuracy, Precision, Recall, F1, ROC-AUC**  
@@ -35,7 +35,7 @@ Artifacts:
 
 ---
 
-### ✅ Day 3 - Logistic Regression with Cross-Validation + ROC Curve  
+### Day 3 - Logistic Regression with Cross-Validation + ROC Curve  
 - Expanded features: sex, age, fare, class, embarked, sibsp, parch, alone  
 - Used **Stratified 5-fold cross-validation** for robust performance estimates  
 - Evaluated multiple metrics (Accuracy, F1, ROC-AUC)  
@@ -46,17 +46,18 @@ Artifacts:
 - [CV Results](docs/titanic_cv_results.md)  
 - ![ROC Curve](docs/titanic_roc_curve.png)  
 
-### ✅ Day 4 - Feature Engineering + Tree Baselines
+### Day 4 - Feature Engineering + Tree Baselines
 - Engineered features: `family_size`, `is_child`, `fare_per_person`
 - Compared **Logistic Regression**, **Decision Tree**, **Random Forest**
 - 5-fold CV (Accuracy, F1, ROC-AUC) + ROC overlay plot
 
 Artifacts:
 - [Notebook](notebooks/04_titanic_feature_engineering_trees.ipynb)  
-- [CV Results](docs/titanic_day4_cv_results.md)  
 - ![ROC Overlay](docs/titanic_day4_roc_overlay.png)
 
-### ✅ Day 5 - Credit Card Fraud Detection (Imbalanced Data)
+---
+
+### Day 5 - Credit Card Fraud Detection (Imbalanced Data)
 
 - Worked with the Kaggle Credit Card Fraud Detection dataset (~285k transactions, only 0.17% fraud)
 
@@ -74,6 +75,7 @@ Artifacts:
 - [Notebook](notebooks/05_creditcard_imbalanced.ipynb)
 - [Results](docs/creditcard_results.md)
 - Plots saved under 'docs/'
+- ![ROC Baselines](docs/cc_imbalanced_day_05_roc_baselines.png)
 
 ---
 
@@ -86,17 +88,6 @@ Artifacts:
 
 ---
 
-## ⚙️ How to Run  
-
-Clone the repo:  
-```bash
-git clone https://github.com/ernestog27/ml-journey.git
-cd ml-journey
-
-
-
----
-
 ## 👨🏾‍💻 Connect
 
 [LinkedIn](https://linkedin.com/in/eg-data)
@@ -105,3 +96,9 @@ cd ml-journey
 
 [GitHub Repos](https://github.com/ernestog27) 
 
+## ⚙️ How to Run  
+
+Clone the repo:  
+```bash
+git clone https://github.com/ernestog27/ml-journey.git
+cd ml-journey
